@@ -24,7 +24,7 @@ function displayMemo(memo) {
   editBtn.innerText = "수정하기";
   editBtn.addEventListener("click", editMemo);
   editBtn.dataset.id = memo.id;
-  ㅎ;
+  
 
   const delbtn = document.createElement("button");
   delbtn.innerText = "삭제";
